@@ -1,0 +1,39 @@
+.sketching-section {
+    padding: 70px 0 20px;
+}
+
+.sketching-section .col-xs-12 {
+    margin-bottom: 50px;
+}
+
+.sketching-main h3 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: normal;
+    margin: 0 0 50px;
+    text-shadow: 0 0 8px #44297b;
+}
+
+.font-hand {
+    font-family: 'TrashHand';
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.sketching-section .col-xs-12 {
+    margin-bottom: 50px;
+}
+
+.lightning-speed-sketch {
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+.lightning-speed-sketch img {
+    margin-bottom: 15px;
+}

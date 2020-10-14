@@ -1,0 +1,98 @@
+.news-section {
+    position: relative;
+    margin: 30px auto 50px;
+    width: 80%;
+    background-color: #F2ECEC;
+    padding: 30px 20px;
+    display: flex;
+    justify-content: space-between;
+    font-family: OpenSans;
+}
+.news-section .section_home {
+    width: 35%;
+    background-color: #FFFFFF;
+    color: #000000;
+}
+.news-section .section_home > img {
+    width: 100%;
+    display: block;
+}
+.news-section .section_home .title {
+    text-align: center;
+    margin-top: 25px;
+    font-family: OpenSansCond-Light;
+    font-size: 40px;
+}
+.news-section .section_home p {
+    margin: 20px 10px ;
+    font-size: 16px;
+}
+.news-section .section_news {
+    width: 50%;
+}
+.news-section .section_news .item {
+    margin-bottom: 50px;
+    color: #000000;
+}
+.news-section .section_news .item .item_title {
+    padding: 20px;
+    font-family: OpenSansCond-Light;
+    font-size: 36px;
+}
+.news-section .section_news .item .item_text {
+    margin: 20px;
+    margin-left: 100px;
+    font-family: OpenSans;
+    font-size: 16px;
+}
+@media(max-width: 1280px) {
+    .news-section {
+        width: 95%;
+        margin: 20px auto 30px;
+    }
+    .news-section .section_news {
+        width: 55%;
+    }
+}
+@media(max-width: 768px) {
+    .news-section {
+        flex-direction: column;
+        padding: 10px 20px;
+    }
+    .news-section .section_home {
+        width: 100%;
+    }
+    .news-section .section_news {
+        width: 100%;
+        margin-top: 30px;
+    }
+}
+@media(max-width: 568px) {
+    .news-section {
+        margin: 20px auto;
+        padding: 10px;
+    }
+    .news-section .section_home .title {
+        margin-top: 15px;
+        font-size: 30px;
+    }
+    .news-section .section_home p {
+        margin: 10px;
+        font-size: 14px;
+    }
+    .news-section .section_news {
+        margin-top: 20px;
+    }
+    .news-section .section_news .item {
+        margin-bottom: 20px;
+    }
+    .news-section .section_news .item .item_title {
+        padding: 0;
+        margin-top: 10px;
+        font-size: 24px;
+    }
+    .news-section .section_news .item .item_text {
+        margin: 10px 20px;
+        font-size: 14px;
+    }
+}

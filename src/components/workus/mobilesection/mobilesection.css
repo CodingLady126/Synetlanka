@@ -1,0 +1,180 @@
+.mobile-section {
+    background-color: #5C2D91;
+    position: relative;
+    padding-bottom: 150px;
+}
+.mobile-section .item .item_title {
+    width: 480px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: OpenSansCond-Light;
+    font-size: 30px;
+    line-height: 94px;
+    color: #050505;
+    background-color: #FFFFFF;
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+.mobile-section .item .item_title img {
+    margin-right: 10px;
+}
+.mobile-section .item .item_detail {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: 10%;
+}
+.mobile-section .item .item_detail .detail_text {
+    text-align: center;
+    font-family: OpenSansCond-Light;
+    font-size: 72px;
+    line-height: 86px;
+    color: #FFFFFF;
+    width: 36%;
+}
+.mobile-section .item .item_detail .detail_photo {
+    width: 60%;
+}
+.mobile-section .item .item_detail .detail_photo img {
+    width: 100%;
+    display: block;
+}
+.mobile-section .item .item_description {
+    font-family: OpenSans;
+    font-size: 14px;
+    /* line-height: 24px;*/
+    color: #FFFFFF;
+    margin: 50px 20% 0 15%;
+}
+.mobile-section .slick-prev {
+    width: 49px;
+    height: 74px;
+    background-image: url(../../../assets/images/workus/btn_prev.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    z-index: 1;
+    top: 10px;
+    left: 30px;
+    transform: none;
+}
+.mobile-section .slick-prev:before {
+    display: none;
+}
+.mobile-section .slick-next {
+    width: 49px;
+    height: 74px;
+    background-image: url(../../../assets/images/workus/btn_next.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    z-index: 1;
+    top: 10px;
+    left: 600px;
+    transform: none;
+}
+.mobile-section .slick-next:before {
+    display: none;
+}
+@media(max-width: 1280px) {
+    .mobile-section {
+        padding-bottom: 50px;
+    }
+    .mobile-section .item .item_title {
+        width: 40%;
+        font-size: 24px;
+        line-height: 70px;
+        margin-left: 64px;
+        margin-bottom: 50px;
+    }
+    .mobile-section .item .item_title img {
+        height: 50px;
+    }
+    .mobile-section .slick-next {
+        width: 32px;
+        height: 50px;
+        left: calc(40% + 84px);
+    }
+    .mobile-section .slick-prev {
+        width: 32px;
+        height: 50px;
+        left: 15px;
+    }
+    .mobile-section .item .item_detail {
+        width: 95%;
+        margin-left: 5%;
+    }
+    .mobile-section .item .item_detail .detail_text {
+        width: 40%;
+        font-size: 48px;
+        line-height: 64px;
+    }
+    .mobile-section .item .item_description {
+        margin: 40px 15% 0 10%;
+    }
+}
+@media(max-width: 768px) {
+    .mobile-section .item .item_title {
+        width: 60%;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+    .mobile-section .slick-prev {
+        left: calc(20% - 50px);
+    }
+    .mobile-section .slick-next {
+        left: calc(80% + 20px);
+    }
+    .mobile-section .item .item_detail {
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+    }
+    .mobile-section .item .item_detail .detail_text {
+        width: 60%;
+    }
+    .mobile-section .item .item_detail .detail_photo {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .mobile-section .item .item_description {
+        width: 80%;
+        margin: auto;
+        margin-top: 30px;
+    }
+}
+@media(max-width: 568px) {
+    .mobile-section .item .item_title {
+        width: calc(100% - 76px);
+        font-size: 6vw;
+        line-height: 60px;
+        margin-bottom: 30px;
+    }
+    .mobile-section .slick-prev {
+        width: 25px;
+        height: 37.5px;
+        left: 10px;
+    }
+    .mobile-section .slick-next {
+        width: 25px;
+        height: 37.5px;
+        left: auto;
+        right: 10px;
+    }
+    .mobile-section .item .item_title img {
+        height: 40px;
+        margin-right: 5px;
+    }
+    .mobile-section .item .item_detail .detail_text {
+        width: 90%;
+        font-size: 36px;
+        line-height: 48px;
+    }
+    .mobile-section .item .item_detail .detail_photo {
+        margin-top: 20px;
+    }
+    .mobile-section .item .item_description {
+        margin-top: 20px;
+    }
+}

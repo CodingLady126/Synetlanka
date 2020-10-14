@@ -1,0 +1,122 @@
+.vision-section {
+    margin: auto;
+    padding: 90px 15%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #FBFAFD;
+}
+.vision-section .vision-item1 {
+    width: 65%;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 5px 1px #D7D8D8;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 30px 20px;
+}
+.vision-section .vision-item1 .vision-title {
+    position: absolute;
+    font-family: OpenSans;
+    font-size: 20px;
+    line-height: 24px;
+    color: #F9FBFC;
+    background-color: #007BC7;
+    display: flex;
+    width: 120px;
+    height: 53px;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    transform: translateY(-100%);
+}
+.vision-section .vision-item1 .item-detail {
+    font-family: OpenSans;
+    font-size: 14px;
+    line-height: 16.8px;
+    color: #0E0D0D;
+    margin-left: 20px;
+}
+.vision-section .vision-item2 {
+    width: 33%;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 5px 1px #D7D8D8;
+    padding: 15px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.vision-section .vision-item2 .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 40%;
+}
+.vision-section .vision-item2 .item:nth-child(2) {
+    transform: translateY(20%);
+}
+.vision-section .vision-item2 .item:nth-child(3) {
+    width: 60%;
+    transform: translateX(20%);
+}
+.vision-section .vision-item2 .item .item-title {
+    font-family: OpenSansCond-Light;
+    font-size: 22px;
+    line-height: 21.6px;
+    color: #161515;
+    text-align: center;
+    margin-top: 10px;
+}
+@media(max-width: 1280px) {
+    .vision-section {
+        padding: 80px 5%;
+    }
+}
+@media(max-width: 768px) {
+    .vision-section {
+        flex-direction: column;
+        align-items: center;
+        padding: 80px 5% 30px;
+    }
+    .vision-section .vision-item1 {
+        width: 100%;
+    }
+    .vision-section .vision-item2 {
+        width: 60%;
+        margin-top: 20px;
+    }
+}
+@media(max-width: 568px) {
+    .vision-section {
+        padding: 60px 5% 20px;
+    }
+    .vision-section .vision-item1 {
+        padding: 10px;
+    }
+    .vision-section .vision-item1 .vision-title {
+        font-size: 16px;
+        line-height: 19.2px;
+        width: 100px;
+        height: 40px;
+    }
+    .vision-section .vision-item1 > img {
+        max-width: 25%;
+    }
+    .vision-section .vision-item1 .item-detail {
+        margin-left: 10px;
+        font-size: 12px;
+        line-height: 14.4px;
+    }
+    .vision-section .vision-item2 {
+        width: 80%;
+        margin-top: 10px;
+    }
+    .vision-section .vision-item2 .item > img {
+        max-width: 40%;
+    }
+    .vision-section .vision-item2 .item .item-title {
+        font-size: 14px;
+        line-height: 16.8px;
+    }
+}
